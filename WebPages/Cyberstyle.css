@@ -1,0 +1,35 @@
+div.mm{
+	background-image: linear-gradient(to top,  #ff80ff, #cc00cc);
+}
+div.mm h1{
+	font-weight: 700;
+    border: 5px solid;
+    font-size: 30px;
+}
+div.mm:hover{
+	background-image: linear-gradient(to top, #cc00cc, #ff80ff );
+}
+#gk,tr{
+	border:3px solid;
+	border-radius: 10;
+}
+th{
+	font-size: 23px;
+	text-align: center;
+}
+td{
+ text-align: center;
+ font-size:17px;
+}
+tr:hover{
+background-color:#d699ff;
+}
+img:hover
+{
+	width:120px;
+	height: 120px
+}
+body{
+	background-size: 100% 100%;
+	background-color: #e6f2ff;
+}

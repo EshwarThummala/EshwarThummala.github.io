@@ -1,0 +1,38 @@
+div.mm{
+	background-image: linear-gradient(to top,  #b3e0ff, #002966);
+}
+div.mm h1{
+	font-weight: 700;
+    border: 5px solid;
+    font-size: 30px;
+}
+div.mm:hover{
+	background-image: linear-gradient(to top,  #002966, #b3e0ff);
+}
+#gk,tr{
+	border:3px solid;
+	border-radius: 10
+}
+th{
+	font-size: 23px;
+	text-align: center;
+	color:white;
+}
+td{
+ text-align: center;
+ font-size:17px;
+ 
+ font-weight: 600;
+}
+tr:hover{
+background-color: #b3ecff;
+}
+img:hover
+{
+	width:120px;
+	height: 120px
+}
+body{
+	background-image: url('Icons/sky.jpg');
+    background-size: 100%,100%
+}
