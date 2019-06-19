@@ -1,54 +1,63 @@
-
- div#bot1
- {
- 	background-color:#e6e6e6;
-  opacity:1;
- 	height:350px;
+div#head{
+	height:100px;
+	background-color: #000;
+	border-radius: 10px;
 }
-div#bot1:hover
-{
-  opacity:1;
-}
-  div#space
- {
-  height:150px;
- }
-  div#bott
- {
-  height:100px;
- }
-  div#bot2
- {
- 	background-image: linear-gradient(to right, #000000, #000000);
-  border-radius: 10px;
- 	height:100px;
- }
- img:hover{ 
- background-color: #ffffff;
- border-radius: 100px; 
- box-shadow: 0px 0px 5px 10px #ffffff;
- }
  #jk{
   font-weight: 800;
   color: black;
   font-size: 35px;
   font-family: "Impact, Charcoal, sans-serif";
  }
-
-  #kl{
+#kl{
    font-weight: 700;
    color:white;
   font-family: "Impact, Charcoal, sans-serif";
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
  }
- img:hover
- {
+div#maindiv{
+	height:738px;	
+}
+div#one{
+	height:738px;
+	background-image: linear-gradient(to top, #ffccf2, #6600cc);
+	border-right:1px solid;	
+}
+div#two{
+	height:738px;
+	background-image: linear-gradient(to top, #ffccf2, #6600cc);
+	border:1px solid;	
+}
+div#three{
+	height:738px;
+	background-image: linear-gradient(to top, #ffccf2, #6600cc);
+	border:1px solid;	
+}
+div#four{
+	height:738px;
+	background-image: linear-gradient(to top, #ffccf2, #6600cc);
+	border:1px solid;	
+}
+div#five{
+	height:738px;
+	background-image: linear-gradient(to top, #ffccf2, #6600cc);	
+	border-left: 1px solid;
+}
+div#tk,#tk1{
+background-color:#fff;
+height:738px
+}
+ img:hover{ 
+ background-color: #ffffff;
+ border-radius: 100px; 
+ box-shadow: 0px 0px 5px 10px #ffffff;
   width:120px;
   height: 120px;
+
  }
-body{
-  background-image:linear-gradient(to left, #000066,#000000);
-  background-size: 100% 200%
-}
-p{
-color:white;
+div.temp{
+	height:15px;
+	width:105px;
+	background-color:#000000;
 }
