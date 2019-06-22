@@ -1,53 +1,71 @@
 div#head{
 	height:100px;
-	background-color: #000;
+	background-color: #fff;
+	border:3px solid ;
+	border-radius:10px;
 }
-
 #kl{
    font-weight: 700;
-   color:white;
+  
   font-family: "Impact, Charcoal, sans-serif";
  }
+
 div#maindiv{
 	height:738px;
 }
 div#one{
 	height:738px;
-	background-image: linear-gradient(to top, #6600cc,#ffccf2);
 	border:2px solid white;
+	border-top: 0px solid;
+	border-bottom: 0px solid;
+	border-left: 0px solid;
 }
 div#one:hover,#two:hover,#three:hover,#four:hover,#five:hover{
--ms-transform:scale(1.02);
--webkit-transform:scale(1.02);
--webkit-transform:scale(1.02);
+
+background-image: linear-gradient(to top, #6600cc,#ffccf2);	
+
 
 }
 div#two{
-	height:738px;
-	background-image: linear-gradient(to top, #6600cc,#ffccf2);
+    height:100%;
 	border:2px solid white;	
+	border-top: 0px solid; 
+	border-bottom: 0px solid;
+
 }
 div#three{
 	height:738px;
-	background-image: linear-gradient(to top, #6600cc,#ffccf2);
 	border:2px solid white;	
+	border-top: 0px solid;
+	border-bottom: 0px solid;
 }
 div#four{
 	height:738px;
-	background-image: linear-gradient(to top, #6600cc,#ffccf2);
 	border:2px solid white;	
+	border-top: 0px solid;
+	border-bottom: 0px solid;
 }
 div#five{
 	height:738px;
-	background-image: linear-gradient(to top, #6600cc,#ffccf2);	
 	border: 2px solid white;
+	border-top: 0px solid;
+	border-bottom: 0px solid;
+	border-right: 0px solid;
 }
 div#kk,#kk1{
 	height:738px;
 	background-image: linear-gradient(to top, #6600cc,#ffccf2);	
-	border: 2px solid white;
+	border-top: 0px solid;
 }
 
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  opacity: 0.7;
+}
 
 div.temp{
 	height:15px;
