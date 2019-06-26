@@ -1,35 +1,126 @@
-div.mm{
-	background-image: linear-gradient(to top,  #ff80ff, #cc00cc);
+div.sticky{
+	
+	height:360px;
+    background-image:url('Icons/cybermain.jpg') ; 
+    background-size: 100%;
 }
-div.mm h1{
+div.sticky h1{
 	font-weight: 700;
-    border: 5px solid;
-    font-size: 30px;
+    font-size: 45px;
+    color:#006600;
 }
-div.mm:hover{
-	background-image: linear-gradient(to top, #cc00cc, #ff80ff );
+div#inf h2{
+	font-weight: 600;
+	font-size: 28px;
+	color:black;
+}
+#inf{
+	
+	border:6px solid white;
 }
 #gk,tr{
 	border:3px solid;
 	border-radius: 10;
 }
-th{
-	font-size: 23px;
-	text-align: center;
-}
-td{
- text-align: center;
- font-size:17px;
-}
-tr:hover{
-background-color:#d699ff;
-}
-img:hover
-{
-	width:120px;
-	height: 120px
-}
 body{
 	background-size: 100% 100%;
-	background-color: #e6f2ff;
+	background-color: #fff;
+}
+div#a,#c,#e{
+	background-image:linear-gradient(to left ,#003366,#3399ff);;
+	height:75px;
+	color:white;
+	font-size: 28px;
+	line-height: 75px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px; 
+	text-align: center;
+}
+div#b,#d,#f{
+	background-image:linear-gradient(to right ,#003366,#3399ff);
+	height:75px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	text-align: center;
+	line-height: 75px;
+	font-size: 28px;
+	color:white;
+}
+div#about{
+	height:300px; 
+}
+div#memm{
+  background-color: #99e6e6;
+  border-radius: 10px;
+  border:4px solid #003366;
+  padding:50px;
+  padding-left:70px 
+}
+div#memm h3{
+  font-size:23px;
+  font-weight: 600;
+}
+div#memm h2{
+  font-size:24px;
+  font-weight: 700;
+  color:#003366;
+}
+#temp{
+	height:1000px;
+   background-image: url('Icons/cyberobj.jpg');
+   background-size: 100%;
+}
+#temp1{
+	height:1100px;
+   background-color:#000;
+   background-size: 100%;
+}
+div#aboutd{
+	height:300px; 
+  	background-image: url('Icons/cyberabout.png');
+  	background-size: 100%;
+  	color:white;
+}
+div.space{
+	height:200px;
+}
+div#exp h1{
+font-weight: 750;
+    color:#f2d9f2;
+}
+div#obj h1{
+    font-weight: 750;
+    color:#f2d9f2;
+}
+div#tar h1{
+    font-weight: 750;
+    color:#ff5050;
+}
+div#rfb h1{
+font-weight: 750;
+    color:#ff5050;
+}
+div#exp h3{
+	color:#fff
+}
+div#obj h3{
+	color:#fff
+}
+div.text{
+border:5px solid #000;
+padding:50px;
+border-radius: 10px;
+	
+}
+div#text h3{
+ font-size: 23px;
+ color:#fff;
+ }
+ table{
+ 	color:white;
+ 	font-size: 25px;
+ }
+table,tr,td{
+border:0px solid white;
+padding:10px;
 }
