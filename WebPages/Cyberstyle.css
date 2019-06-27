@@ -1,13 +1,13 @@
 div.sticky{
 	
-	height:360px;
+	height:420px;
     background-image:url('Icons/cybermain.jpg') ; 
     background-size: 100%;
 }
 div.sticky h1{
 	font-weight: 700;
     font-size: 45px;
-    color:#006600;
+    color:#fff;
 }
 div#inf h2{
 	font-weight: 600;
@@ -16,7 +16,7 @@ div#inf h2{
 }
 #inf{
 	
-	border:6px solid white;
+	border:6px solid #fff;
 }
 #gk,tr{
 	border:3px solid;
@@ -65,11 +65,7 @@ div#memm h2{
   font-weight: 700;
   color:#003366;
 }
-#temp{
-	height:1000px;
-   background-image: url('Icons/cyberobj.jpg');
-   background-size: 100%;
-}
+
 #temp1{
 	height:1100px;
    background-color:#000;
@@ -77,7 +73,7 @@ div#memm h2{
 }
 div#aboutd{
 	height:300px; 
-  	background-image: url('Icons/cyberabout.png');
+  	background-image: url('Icons/cyberobj.jpg');
   	background-size: 100%;
   	color:white;
 }
@@ -86,11 +82,11 @@ div.space{
 }
 div#exp h1{
 font-weight: 750;
-    color:#f2d9f2;
+    color:#660066;
 }
 div#obj h1{
     font-weight: 750;
-    color:#f2d9f2;
+    color:#660066;
 }
 div#tar h1{
     font-weight: 750;
@@ -101,10 +97,10 @@ font-weight: 750;
     color:#ff5050;
 }
 div#exp h3{
-	color:#fff
+	color:#000
 }
 div#obj h3{
-	color:#fff
+	color:#000
 }
 div.text{
 border:5px solid #000;
